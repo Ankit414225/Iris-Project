@@ -26,7 +26,7 @@ Models were evaluated using:
 The models were evaluated using accuracy, precision, recall, and F1-score. 
 The non-linear MLP achieved perfect classification on the test set, with all 
 metrics equal to 1.00 across the three classes.
-
+## Brief Interpretation
 The confusion matrix shows strong diagonal dominance, indicating correct 
 classification for all species. Compared to the linear baseline, the MLP 
 significantly reduces confusion between Versicolor and Virginica, highlighting 
