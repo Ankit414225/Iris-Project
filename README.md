@@ -22,6 +22,15 @@ Models were evaluated using:
 3. Recall
 4. F1-score
 5. Confusion Matrix
+## Quantitative Evaluation:
+The models were evaluated using accuracy, precision, recall, and F1-score. 
+The non-linear MLP achieved perfect classification on the test set, with all 
+metrics equal to 1.00 across the three classes.
+
+The confusion matrix shows strong diagonal dominance, indicating correct 
+classification for all species. Compared to the linear baseline, the MLP 
+significantly reduces confusion between Versicolor and Virginica, highlighting 
+the importance of non-linear decision boundaries for this dataset.
 
 ## Result
 The MLP achieved 100% test accuracy and reduced confusion between Versicolor and Virginica compared to Logistic Regression.
